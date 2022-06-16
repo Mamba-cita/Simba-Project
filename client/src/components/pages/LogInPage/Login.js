@@ -30,7 +30,7 @@ const Login = () => {
   };
 
   return (
-    <>
+    <div className="main">
       {success ? (
         <section>
           <h1>You are logged in</h1>
@@ -73,12 +73,13 @@ const Login = () => {
           <p>
             Not Yet Registered? <br />
             <span>
-              <a href="/register">Sign Up</a>
+              <a href="/signUp">Sign Up</a>
             </span>
           </p>
         </section>
       )}
-    </>
+    </div>
+    
   );
 };
 
