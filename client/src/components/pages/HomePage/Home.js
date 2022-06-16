@@ -1,15 +1,14 @@
 import React from "react";
+
+
 import "./Home.css";
-import Navbar from "../MainNav/Navbar";
-import Login from "../LogInPage/Login";
+
 
 function Home() {
-  return (
-    <div>
-      <Navbar />
-      <Login/>
-    </div>
-  );
+  return <div>Home
+<i class="fa-solid fa-bars"></i>
+
+  </div>;
 }
 
 export default Home;
